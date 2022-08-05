@@ -32,15 +32,16 @@ Users should be able to:
 ![desktop](inde.html(iPhone6_7_8)c.png)
 
 ### Links
-- Solution URL: (https://github.com/ibimina/time-tracking-dashboard-main)
-- Live Site URL:(https://ibimina.github.io/time-tracking-dashboard-main/)
+- Solution URL: (https://github.com/ibimina/time-tracking-dashboard)
+- Live Site URL:(https://ibimina.github.io/time-tracking-dashboard/)
 
 
 ## My process
 
+
 ### Built with
 
-- Semantic HTML5 markup
+- Reactjs
 - CSS custom properties
 - Flexbox
 - CSS Grid
@@ -49,26 +50,30 @@ Users should be able to:
 
 ### What I learned
 
-Applying this css property enabled the functionaly of its hover effect
+How to fetch data from json file stored in the src folder
+- import and read json file inside any component like below.
+```js
+import db from "./data/db.json";
 
-
-```css
-div.detailss {
-  grid-column: 1/3;
-  grid-row: 2;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  border-radius: 10px;
-  position: relative;
-  background-color: hsl(235, 46%, 20%);
-  top: -0.5rem;
-  z-index: 999999999;
-  padding: 2rem;
+function App() {
+  const [data, setData] = useState(db);
+  const { time } = data;
+  return (
+    <div className="app">
+      <Report />
+      <Routes>
+        <Route path="/" element={<Daily time={time} />} />
+        <Route path="weekly" element={<Weekly time={time} />} />
+        <Route path="monthly" element={<Monthly time={time} />} />
+      </Routes>
+    </div>
+  );
 }
 ```
 
 ## Author
 Ibimina Hart
- Frontend Mentor - (https://www.frontendmentor.io/profile/ibimina)
-- Twitter - (https://www.twitter.com/ibiminaaH)
+- Frontend Mentor - [@ibimina](https://www.frontendmentor.io/profile/ibimina)
+- Twitter -[@ibiminaaH](https://www.twitter.com/ibiminaaH)
+- Linkedin -[@ibimina](https://www.linked/in/ibimina-hart.com/ibiminaaH)
 

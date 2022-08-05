@@ -5,7 +5,7 @@ export default function Acivities({ title, current, previous, last,images }) {
   return (
     <div className="con">
       <div className={`images ${title.toLowerCase()}`}>
-        {/* <img src={images} alt={`${title} icon`} className="icon"/> */}
+       
       </div>
       <div key={title} className="activities">
         <div className="head ">
