@@ -12,7 +12,7 @@ export default function Report() {
       <nav>
         <ul>
           <li>
-            <NavLink to="/">Daily</NavLink>{" "}
+            <NavLink to="/daily">Daily</NavLink>{" "}
           </li>
           <li>
             {" "}
