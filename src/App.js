@@ -19,7 +19,7 @@ function App() {
   const { time } = data;
   return (
     <div className="app">
-   
+      <Report />
       <Routes>
         <Route path="/" element={<Report />} />
         <Route path="daily" element={<Daily time={time} />} />
