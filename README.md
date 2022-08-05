@@ -32,8 +32,8 @@ Users should be able to:
 ![desktop](inde.html(iPhone6_7_8)c.png)
 
 ### Links
-- Solution URL: (https://github.com/ibimina/time-tracking-dashboard)
-- Live Site URL:(https://ibimina.github.io/time-tracking-dashboard/)
+- Solution URL: (https://github.com/ibimina/time-tracking-dash-board)
+- Live Site URL:(https://ibimina.github.io/time-tracking-dash-board/)
 
 
 ## My process
