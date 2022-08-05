@@ -9,7 +9,7 @@ import "./App.css";
 import db from "./data/db.json";
 
 //components
-import Report from "./components/Report";
+// import Report from "./components/Report";
 import Daily from "./pages/Daily";
 import Monthly from "./pages/Monthly";
 import Weekly from "./pages/Weekly";
@@ -19,8 +19,9 @@ function App() {
   const { time } = data;
   return (
     <div className="app">
-      <Report />
+      {/* <Report /> */}
       <Routes>
+        {/* <Route path="/" element={<Report />} /> */}
         <Route path="/" element={<Daily time={time} />} />
         <Route path="weekly" element={<Weekly time={time} />} />
         <Route path="monthly" element={<Monthly time={time} />} />

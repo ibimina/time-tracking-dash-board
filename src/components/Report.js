@@ -16,10 +16,10 @@ export default function Report() {
           </li>
           <li>
             {" "}
-            <NavLink to="weekly">Weekly</NavLink>
+            <NavLink to="/weekly">Weekly</NavLink>
           </li>
           <li>
-            <NavLink to="monthly">Monthly</NavLink>{" "}
+            <NavLink to="/monthly">Monthly</NavLink>{" "}
           </li>
         </ul>
       </nav>
