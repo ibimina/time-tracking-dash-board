@@ -1,7 +1,7 @@
 
 
 import Acivities from "../components/Acivities";
-import Report from "../components/Report";
+
 
 export default function Monthly({time}) {
     const last = "Last Month"
