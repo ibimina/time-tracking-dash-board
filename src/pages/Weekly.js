@@ -6,7 +6,7 @@ export default function Weekly({time}) {
  const last ="Last Week"
   return (
     <>
-    <Report/>
+   
       {time &&
         time.map(({ title, timeframes, images }) => (
           <Acivities

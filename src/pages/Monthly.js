@@ -7,7 +7,7 @@ export default function Monthly({time}) {
     const last = "Last Month"
   return (
     <>
-    <Report/>
+ 
       {time &&
         time.map(({ title, timeframes, images }) => (
           <Acivities
